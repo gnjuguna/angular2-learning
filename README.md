@@ -1,11 +1,5 @@
 Angular Learning
 
-[![taylor swift](https://img.shields.io/badge/secured%20by-taylor%20swift-brightgreen.svg)](https://twitter.com/SwiftOnSecurity)
-[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen) [![GitHub version](https://badge.fury.io/gh/angularclass%2Fangular2-webpack-starter.svg)](http://badge.fury.io/gh/angular-class%2Fangular2-webpack-starter)
-[![Dependency Status](https://david-dm.org/angularclass/angular2-webpack-starter.svg)](https://david-dm.org/angularclass/angular2-webpack-starter)
-[![Issue Stats](http://issuestats.com/github/angularclass/angular2-webpack-starter/badge/pr?style=flat)](http://issuestats.com/github/angularclass/angular2-webpack-starter)
-[![Issue Stats](http://issuestats.com/github/angularclass/angular2-webpack-starter/badge/issue?style=flat)](http://issuestats.com/github/angularclass/angular2-webpack-starter) [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/angularclass/angular-2-webpack-starter)
-
 <p align="center">
   <a href="https://angularclass.com" target="_blank">
     <img src="https://cloud.githubusercontent.com/assets/1016365/9863762/a84fed4a-5af7-11e5-9dde-d5da01e797e7.png" alt="Webpack and Angular 2" width="500" height="320"/>

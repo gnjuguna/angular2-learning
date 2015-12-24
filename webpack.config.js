@@ -102,7 +102,7 @@ module.exports = {
     contentBase: 'public',
     publicPath: '/build',
     watchOptions: {
-      aggregateTimeout: 300,
+      aggregateTimeout: 3000,
       poll: 1000
     },
   }

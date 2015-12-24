@@ -13,7 +13,7 @@ import {ELEMENT_PROBE_PROVIDERS} from 'angular2/platform/common_dom';
  * App Component
  * our top level component that holds all of our components
  */
-import {App} from './app/app';
+import {AppComponent} from './app/app.component';
 
 /*
  * Bootstrap our Angular app with a top level component `App` and inject
@@ -21,7 +21,7 @@ import {App} from './app/app';
  */
 // enableProdMode() // include for production builds
 function main() {
-  return bootstrap(App, [
+  return bootstrap(AppComponent, [
     // These are dependencies of our App
     HTTP_PROVIDERS,
     ROUTER_PROVIDERS,

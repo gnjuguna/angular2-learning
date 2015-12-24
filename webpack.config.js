@@ -100,7 +100,11 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: 'public',
-    publicPath: '/build'
+    publicPath: '/build',
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+    },
   }
 };
 

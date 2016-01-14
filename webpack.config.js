@@ -5,6 +5,7 @@
  */
 var path = require('path');
 var webpack = require('webpack');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 // Webpack Plugins
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 
@@ -77,6 +78,14 @@ module.exports = {
   },
 
   plugins: [
+    new CopyWebpackPlugin([{
+      from: './src/app/',
+      to: '../app'
+    }], {
+      ignore: [
+        '*.ts'
+      ]
+    }),
     new CommonsChunkPlugin({
       name: 'vendor',
       filename: 'vendor.js',
